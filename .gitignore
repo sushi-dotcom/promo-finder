@@ -1,0 +1,16 @@
+# Kuku's input pack is confidential: never commit the screenplays
+data/
+*.zip
+episode-*.txt
+# local cache of model replies and secrets
+.cache/
+.env
+__pycache__/
+# local Python environment
+venv/
+# run outputs are shared on Google Drive, not GitHub
+outputs/
+outputs_v1/
+outputs_gemini_partial/
+# hand-check labels are shared on Google Drive with the outputs
+eval/check_10*.csv
